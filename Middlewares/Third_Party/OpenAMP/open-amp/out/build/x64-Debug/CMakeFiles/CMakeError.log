@@ -1,0 +1,34 @@
+Determining if files stdatomic.h exist failed with the following output:
+Change Dir: C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Middlewares/Third_Party/OpenAMP/open-amp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_96c07 && [1/2] Building C object CMakeFiles\cmTC_96c07.dir\HAVE_STDATOMIC_H.c.obj
+FAILED: CMakeFiles/cmTC_96c07.dir/HAVE_STDATOMIC_H.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\HostX64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -Wall -Wextra -c /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_96c07.dir\HAVE_STDATOMIC_H.c.obj /FdCMakeFiles\cmTC_96c07.dir\ /FS -c C:\Users\rm23u\Documents\FCS\Firefly\en.stm32cubeh7_v1-10-0\STM32Cube_FW_H7_V1.10.0\Middlewares\Third_Party\OpenAMP\open-amp\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_STDATOMIC_H.c
+cl : Command line error D8021 : invalid numeric argument '/Wextra'
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <stdatomic.h>
+
+
+int main(void){return 0;}
+
+Determining if files fcntl.h exist failed with the following output:
+Change Dir: C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Middlewares/Third_Party/OpenAMP/open-amp/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4f517 && [1/2] Building C object CMakeFiles\cmTC_4f517.dir\HAVE_FCNTL_H.c.obj
+FAILED: CMakeFiles/cmTC_4f517.dir/HAVE_FCNTL_H.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\HostX64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -Wall -Wextra -c /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_4f517.dir\HAVE_FCNTL_H.c.obj /FdCMakeFiles\cmTC_4f517.dir\ /FS -c C:\Users\rm23u\Documents\FCS\Firefly\en.stm32cubeh7_v1-10-0\STM32Cube_FW_H7_V1.10.0\Middlewares\Third_Party\OpenAMP\open-amp\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_FCNTL_H.c
+cl : Command line error D8021 : invalid numeric argument '/Wextra'
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <fcntl.h>
+
+
+int main(void){return 0;}
+

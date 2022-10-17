@@ -1,0 +1,476 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						12
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "bin_dsp",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Drivers/CMSIS/DSP/Source"
+				},
+				{
+					"build" : "bin_dsp/BasicMathFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Drivers/CMSIS/DSP/Source/BasicMathFunctions",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "bin_dsp/ComplexMathFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Drivers/CMSIS/DSP/Source/ComplexMathFunctions",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "bin_dsp/ControllerFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Drivers/CMSIS/DSP/Source/ControllerFunctions",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "bin_dsp/FastMathFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Drivers/CMSIS/DSP/Source/FastMathFunctions",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "bin_dsp/FilteringFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Drivers/CMSIS/DSP/Source/FilteringFunctions",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "bin_dsp/MatrixFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 7,
+					"source" : "C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Drivers/CMSIS/DSP/Source/MatrixFunctions",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "bin_dsp/StatisticsFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 8,
+					"source" : "C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Drivers/CMSIS/DSP/Source/StatisticsFunctions",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "bin_dsp/SupportFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 9,
+					"source" : "C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Drivers/CMSIS/DSP/Source/SupportFunctions",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "bin_dsp/TransformFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 10,
+					"source" : "C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Drivers/CMSIS/DSP/Source/TransformFunctions",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "bin_dsp/CommonTables",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 11,
+					"source" : "C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Drivers/CMSIS/DSP/Source/CommonTables",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "bin_ref",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "RefLibs",
+					"targetIndexes" : 
+					[
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						12
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DSP_Lib_TestSuite",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "CMSISDSP",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "CMSISDSPBasicMath",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "CMSISDSPComplexMath",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "CMSISDSPController",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "CMSISDSPFastMath",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "CMSISDSPFiltering",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "CMSISDSPMatrix",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "CMSISDSPStatistics",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "CMSISDSPSupport",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "CMSISDSPTransform",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "CMSISDSPCommon",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "DspRefLibs",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "CMSISDSPBasicMath::@7f30f5c285b77ee96968",
+					"jsonFile" : "target-CMSISDSPBasicMath-Debug-5367740a443846aaee67.json",
+					"name" : "CMSISDSPBasicMath",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "CMSISDSPCommon::@dc06e98285d2f04b4e2c",
+					"jsonFile" : "target-CMSISDSPCommon-Debug-3834dda7a8fa62683bc8.json",
+					"name" : "CMSISDSPCommon",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CMSISDSPComplexMath::@484c6b2cf27b12e0ce7e",
+					"jsonFile" : "target-CMSISDSPComplexMath-Debug-db82dc3214958df83c23.json",
+					"name" : "CMSISDSPComplexMath",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CMSISDSPController::@42d4f34249c8657d55a3",
+					"jsonFile" : "target-CMSISDSPController-Debug-6c87ce57a67622287d80.json",
+					"name" : "CMSISDSPController",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "CMSISDSPFastMath::@a193c4d03d8d78a6fb7a",
+					"jsonFile" : "target-CMSISDSPFastMath-Debug-9617381601662ab0deac.json",
+					"name" : "CMSISDSPFastMath",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "CMSISDSPFiltering::@c549d1cc33f8ed4f057c",
+					"jsonFile" : "target-CMSISDSPFiltering-Debug-5824044c30db21cd2d44.json",
+					"name" : "CMSISDSPFiltering",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "CMSISDSPMatrix::@637d804f49c3e51be785",
+					"jsonFile" : "target-CMSISDSPMatrix-Debug-531a1b00176929690494.json",
+					"name" : "CMSISDSPMatrix",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "CMSISDSPStatistics::@1a3c647764e2ad2c6b5f",
+					"jsonFile" : "target-CMSISDSPStatistics-Debug-ab5154ec353a1f0bf75d.json",
+					"name" : "CMSISDSPStatistics",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "CMSISDSPSupport::@96524f3d294305fa8b95",
+					"jsonFile" : "target-CMSISDSPSupport-Debug-2964309395d36f4025e8.json",
+					"name" : "CMSISDSPSupport",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "CMSISDSPTransform::@9515ae092d6bc962d50d",
+					"jsonFile" : "target-CMSISDSPTransform-Debug-ddfad411f829aee31ffc.json",
+					"name" : "CMSISDSPTransform",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DSP_Lib_TestSuite::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DSP_Lib_TestSuite-Debug-574ecff9eb17786c2a25.json",
+					"name" : "DSP_Lib_TestSuite",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "DspRefLibs::@0ff095c5ffc57d454972",
+					"jsonFile" : "target-DspRefLibs-Debug-cd7b3398b8239d9b9728.json",
+					"name" : "DspRefLibs",
+					"projectIndex" : 12
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Drivers/CMSIS/DSP/DSP_Lib_TestSuite/out/build/x64-Debug",
+		"source" : "C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Drivers/CMSIS/DSP/DSP_Lib_TestSuite"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

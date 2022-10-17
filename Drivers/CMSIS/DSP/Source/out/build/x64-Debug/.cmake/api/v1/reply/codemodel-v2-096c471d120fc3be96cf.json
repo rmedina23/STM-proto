@@ -1,0 +1,400 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "BasicMathFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "BasicMathFunctions",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "ComplexMathFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "ComplexMathFunctions",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "ControllerFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "ControllerFunctions",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "FastMathFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "FastMathFunctions",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "FilteringFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "FilteringFunctions",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "MatrixFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "MatrixFunctions",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "StatisticsFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "StatisticsFunctions",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "SupportFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "SupportFunctions",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "TransformFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "TransformFunctions",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "CommonTables",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "CommonTables",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CMSISDSP"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "CMSISDSPBasicMath",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "CMSISDSPComplexMath",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "CMSISDSPController",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "CMSISDSPFastMath",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "CMSISDSPFiltering",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "CMSISDSPMatrix",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "CMSISDSPStatistics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "CMSISDSPSupport",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "CMSISDSPTransform",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "CMSISDSPCommon",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "CMSISDSPBasicMath::@c0114c5525222e166f35",
+					"jsonFile" : "target-CMSISDSPBasicMath-Debug-57a98b038bb82b365535.json",
+					"name" : "CMSISDSPBasicMath",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "CMSISDSPCommon::@b3bb5d6ff155d0aeaa97",
+					"jsonFile" : "target-CMSISDSPCommon-Debug-24c739af359dd3001679.json",
+					"name" : "CMSISDSPCommon",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "CMSISDSPComplexMath::@dbfcc488e54c24d18ac3",
+					"jsonFile" : "target-CMSISDSPComplexMath-Debug-c72e4ebfc2d5f771468a.json",
+					"name" : "CMSISDSPComplexMath",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CMSISDSPController::@6b6a2ef652e161f5feaa",
+					"jsonFile" : "target-CMSISDSPController-Debug-bd884f8af765b1e9ff4c.json",
+					"name" : "CMSISDSPController",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CMSISDSPFastMath::@b0f2baf54fb9ca3aa943",
+					"jsonFile" : "target-CMSISDSPFastMath-Debug-cee2a190464dcf5f8dd8.json",
+					"name" : "CMSISDSPFastMath",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "CMSISDSPFiltering::@fc9f6d8092af2bd2ef68",
+					"jsonFile" : "target-CMSISDSPFiltering-Debug-260847fbb5f9078a0fd0.json",
+					"name" : "CMSISDSPFiltering",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "CMSISDSPMatrix::@62ab9d6914004e756df4",
+					"jsonFile" : "target-CMSISDSPMatrix-Debug-7c11e881badb92d87f08.json",
+					"name" : "CMSISDSPMatrix",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "CMSISDSPStatistics::@9057690330fbd8085117",
+					"jsonFile" : "target-CMSISDSPStatistics-Debug-50ab85e542a3d15e0223.json",
+					"name" : "CMSISDSPStatistics",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "CMSISDSPSupport::@eb091135054dd07c5a5f",
+					"jsonFile" : "target-CMSISDSPSupport-Debug-0a8604b02037fef43d8e.json",
+					"name" : "CMSISDSPSupport",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "CMSISDSPTransform::@e1a5967ecf0215a7a7d2",
+					"jsonFile" : "target-CMSISDSPTransform-Debug-bad9271bc47d9cd02e8d.json",
+					"name" : "CMSISDSPTransform",
+					"projectIndex" : 9
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Drivers/CMSIS/DSP/Source/out/build/x64-Debug",
+		"source" : "C:/Users/rm23u/Documents/FCS/Firefly/en.stm32cubeh7_v1-10-0/STM32Cube_FW_H7_V1.10.0/Drivers/CMSIS/DSP/Source"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
